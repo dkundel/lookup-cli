@@ -1,0 +1,31 @@
+{
+  "name": "lookup-cli",
+  "version": "0.0.0",
+  "homepage": "lookup-cli",
+  "description": "A CLI to lookup phone numbers with the Twilio Lookup API",
+  "license": "MIT",
+  "author": {
+    "name": "dominik.kundel@gmail.com",
+    "email": "dominik.kundel@gmail.com",
+    "url": "https://dkundel.com"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "eslint \"!(node_modules)/**/*.{js,ts}\"",
+    "pretest": "npm run lint",
+    "contrib:add": "all-contributors add",
+    "contrib:gen": "all-contributors generate"
+  },
+  "dependencies": {
+    "meow": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "@dkundel/eslint-config-js": "^2.0.0",
+    "all-contributors-cli": "^4.11.1"
+  },
+  "repository": "dkundel/lookup-cli",
+  "main": "index.js",
+  "bin": "cli.js"
+}

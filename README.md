@@ -1,6 +1,6 @@
 <!-- BADGES:START -->
 
-[![Build Status](https://img.shields.io/travis/undefined/undefined.svg?branch=master&style=flat-square)](https://travis-ci.org/undefined/undefined)[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)[![Code of Conduct](https://img.shields.io/badge/%F0%9F%92%96-Code%20of%20Conduct-ff69b4.svg?style=flat-square)](CODE_OF_CONDUCT.md)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![npm](https://img.shields.io/npm/v/lookup-cli.svg?style=flat-square)](https://npmjs.com/packages/lookup-cli)[![npm](https://img.shields.io/npm/dt/lookup-cli.svg?style=flat-square)](https://npmjs.com/packages/lookup-cli)[![Build Status](https://img.shields.io/travis/dkundel/lookup-cli.svg?branch=master&style=flat-square)](https://travis-ci.org/dkundel/lookup-cli)[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)[![Code of Conduct](https://img.shields.io/badge/%F0%9F%92%96-Code%20of%20Conduct-ff69b4.svg?style=flat-square)](CODE_OF_CONDUCT.md)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 <!-- BADGES:END -->
 

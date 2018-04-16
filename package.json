@@ -1,7 +1,7 @@
 {
-  "name": "lookup-cli",
+  "name": "@dkundel/lookup",
   "version": "1.0.0-alpha.0",
-  "homepage": "https://npm.im/lookup-cli",
+  "homepage": "https://npm.im/@dkundel/lookup",
   "description": "A CLI to lookup phone numbers with the Twilio Lookup API",
   "license": "MIT",
   "author": {

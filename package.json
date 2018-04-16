@@ -1,6 +1,6 @@
 {
   "name": "lookup-cli",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "homepage": "https://npm.im/lookup-cli",
   "description": "A CLI to lookup phone numbers with the Twilio Lookup API",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "email": "dominik.kundel@gmail.com",
     "url": "https://dkundel.com"
   },
+  "keywords": ["twilio", "lookup", "phonenumbers", "cli"],
   "scripts": {
     "start": "node .",
     "test": "echo \"No tests specified\" && exit 0",

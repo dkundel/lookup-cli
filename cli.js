@@ -1,25 +1,28 @@
 #!/usr/bin/env node
-'use strict';
 const meow = require('meow');
 const { lookupCli } = require('.');
 
 const cli = meow(
   `
     Usage
-      $ lookupCli <input>
+      $ lookup <input>
 
     Options
-      --rainbow, -r  Include a rainbow
+      --carrier, -c  Include carrier info
+      --fields, -f Comma-List of properties
 
     Examples
-      $ lookupCli unicorns --rainbow
-      🌈 unicorns 🌈
+      $ lookup +18312161886
 `,
   {
     flags: {
-      rainbow: {
+      carrier: {
         type: 'boolean',
-        alias: 'r',
+        alias: 'c',
+      },
+      fields: {
+        type: 'string',
+        alias: 'f',
       },
     },
   }
